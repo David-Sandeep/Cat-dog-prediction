@@ -59,7 +59,8 @@ def upload_file():
                 prediction = "cat"
         
             return render_template('predict.html', image_file_name=file.filename, label=prediction)
-        except:
+        except Exception as e:
+            print(str(e))
             return render_template('index.html')
         
         
