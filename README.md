@@ -1,9 +1,8 @@
 # Dog or Cat Prediction
+A Flask App that can classify an image as Dog or Cat
+using a convolutional neural network model.  
 
 [Play with the App](https://dogcatprediction.herokuapp.com/)
-
-A simple Flask App that can classify an image as Dog or Cat
-using a convolutional neural network model.  
 
 
 
